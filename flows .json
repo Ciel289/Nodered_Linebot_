@@ -8,47 +8,13 @@
         "env": []
     },
     {
-        "id": "7538adfee2936a9a",
-        "type": "line-messaging-api-config",
-        "channelName": "Snoopy",
-        "hasToken": true,
-        "hasSecret": true
-    },
-    {
-        "id": "411015d47fd74bc4",
-        "type": "mqtt-broker",
-        "name": "netpie2020",
-        "broker": "broker.netpie.io",
-        "port": "1883",
-        "clientid": "2acf33a8-4bea-446a-8886-8b93f278a51e",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
         "id": "a97923871915b389",
         "type": "websocket-client",
         "path": "https://api.netpie.io/v2/device/shadow/data",
         "tls": "",
         "wholemsg": "false",
         "hb": "0",
-        "subprotocol": "Authorization:Device 862d527b-c526-4e85-9e83-dd80cf5e2724:HV6WSZXRzwtBSogCtUD1H4rMxQqPgm8g"
+        "subprotocol": "Authorization:Device"
     },
     {
         "id": "e940c84b6c14b893",
